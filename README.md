@@ -46,6 +46,49 @@ Actual Repository : What stores in the actual .git folder. Check using "cd .git/
 Working Directory : We have all the commited file in the Working Directory. 
 Staging : Add and remove between the working directory and staging takes place. 
 
+[saby@saby git-test]$ cd .git/
+[saby@saby .git]$ tree
+.
+├── branches
+├── COMMIT_EDITMSG
+├── config
+├── description
+├── HEAD
+├── hooks
+│   ├── applypatch-msg.sample
+│   ├── commit-msg.sample
+│   ├── fsmonitor-watchman.sample
+│   ├── post-update.sample
+│   ├── pre-applypatch.sample
+│   ├── pre-commit.sample
+│   ├── prepare-commit-msg.sample
+│   ├── pre-push.sample
+│   ├── pre-rebase.sample
+│   ├── pre-receive.sample
+│   └── update.sample
+├── index
+├── info
+│   └── exclude
+├── logs
+│   ├── HEAD
+│   └── refs
+│       └── heads
+│           └── master
+├── objects
+│   ├── 20
+│   │   └── 22944635d9d194891c34b8e378e604e49b6611
+│   ├── 52
+│   │   └── 7c4c2283154379ded3d592612ae509a2f55e72
+│   ├── ac
+│   │   └── 55a86c931fd1861d8a64d3bea1c33f5f170963
+│   ├── info
+│   └── pack
+└── refs
+    ├── heads
+    │   └── master
+    └── tags
+
+
 Issue the command "git branch"
 
 "git diff" to check what are the changes done. 

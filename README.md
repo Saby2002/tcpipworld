@@ -96,4 +96,4 @@ Issue the command "git branch"
 "git log" Its will show us the history of commits. Note the bottom one will always be the first commit. Then move on
 On each commits we make the snapshot of the files. 
 
-  
+  Some more addition required
